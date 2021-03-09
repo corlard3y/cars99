@@ -1,0 +1,25 @@
+ li{list-style-type: none}
+ /* set element styles to fit tablet and higher(desktop) */
+ }
+@media screen and (max-width: 320px) {
+ 
+
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+      
+    }
+@media screen and (min-width: 481px) and (max-width: 767px) {
+      
+   
+  }
+@media screen and (min-width: 1025px) and (max-width: 1224px) 
+    {
+    
+    }
+
+/*LARGE DEVICE*/
+ @media screen and (min-width: 1225px) 
+ {
+ 
+
+  }

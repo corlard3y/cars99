@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/font/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+	<style type="text/css">
+		header
+		{
+			background: url(images/cars/emil-vilsek-377013-unsplash.jpg);
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+			background-position: center center;
+		}	
+		.main{
+
+			background: url(images/cars/pierre-chatel-innocenti-627645-unsplash.jpg);
+			background-attachment: fixed;
+			width: 100%;
+			height: 550px;
+			opacity: 0.9;
+			background-size: cover;
+			background-position: center center;
+			
+		}	
+		.work .kaka img{width:550px;height: 400px}
+		.kaka
+		{
+
+		}
+		.kaka:hover
+		{
+			background-color: black;
+			color: black;
+		}
+		.content
+		{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			background: rgba(0,0,0,0.5);
+			color: white;
+			width: 100%;
+			padding: 20px;
+		}
+		.content:hover
+		{
+			background-color: rgba(0,0,0,0.2);
+		}
+		.navbar-custom
+		{
+			background-color: transparent;
+		}
+		.navbar-custom .navbar-nav .nav-link 
+		{
+    		color: white;
+    		font-family: sakkal majalla;
+    		font-size: 25px
+    	}
+    	.bab{
+    		width: 100px;background-color: white;color: black;border:1px solid black;border-radius: 20px;
+    	}
+    	.bab:hover
+    	{
+    		border:1px solid #78A5AF;color: #78A5AF;
+    	}
+    	.babo-babo
+    	{padding: 10px;font-size: 16px
+    	}
+    	.lamboo
+    	{
+    		height: 750px;
+    	}
+    	.format
+    	{
+    		background: url(images/cars/pierre-chatel-innocenti-627645-unsplash.jpg);
+			background-attachment: fixed;
+			width: 100%;
+			opacity: 0.9;
+			background-size: cover;
+			background-position: center center;	
+    	}
+    	.inpo
+    	{
+    		position: absolute;
+    		top: 7pc;
+    		left: 2%;
+    		font-size: 60px;
+    		color: white;
+    	}
+    	.inpo-two
+    	{
+    		position: absolute;
+    		top: 12pc;
+    		left:2%;
+    		font-size: 20px;
+    		color: white;
+    	}
+    	.inpoo
+    	{
+    	 margin-top: 40px;
+    	 width: 400px;
+    	 height: 50px;
+    	 margin-left: 50px;
+    	 border-radius: 5px;
+    	 border-style: none;
+    	 padding: 10px
+       	}
+       	.sego
+       	{
+       		font-size: 23px;font-family: segoe UI black
+       	}
+       	.sego-sego
+       	{
+       		font-size: 35px;font-family: segoe UI black
+       	}
+       	.icon
+       	{
+       		position: fixed;
+       		right: 0;
+       		bottom: 0;
+       		padding:10px;
+       		margin-bottom: 20px;
+       		margin-right: 20px;
+       		border:2px solid #FFA733;
+       		border-radius: 50%;
+       		background-color: #FFA733
+
+       	}
+       
+       	.work
+       	{
+       		display:inline-block;margin: 20px;margin-bottom: 50px;margin-left: 75px
+       	}
+       	.content p
+       	{
+       		 font-size: 30px;font-family: segoe UI black;
+       	}
+       	.fa-2x
+       	{color:white;margin-bottom: 5px;background-color: #FFA733}
+       	footer footer
+       	{
+       		font-size: 12px;margin-left: 350px;padding: 10px;
+       	}
+		@media(max-width: 350px) and (min-width: 1px)
+       	{
+       		.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:200px;height: 150px}
+		.content{display: none;}
+       	}
+		@media(max-width: 399px) and (min-width: 350px)
+		{
+			.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		}
+		@media(max-width: 499px) and (min-width: 400px)
+		{
+			.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		.content{width: 300px}
+		}
+		@media(max-width: 849px) and (min-width: 500px)
+		{	.navbar-brand
+			{
+				margin-right: 10pc;
+			}
+			.inpo{font-size: 50px;
+				position:absolute;
+				top:10pc;
+			}
+			.inpo-two{
+				position: absolute;
+				top:14pc;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		.babo-babo
+		{
+			font-size: 9px;
+		}
+		.content p
+		{
+			font-size: 20px;
+		}
+		.sego
+		{
+			font-size: 20px;
+		}
+		.sego-sego
+		{
+			font-size: 30px;
+		}
+					}
+		@media(max-width: 1119px) and (min-width: 850px)
+		{	.navbar-brand
+			{
+				margin-right: 25pc;
+			}
+		.work .kaka img{width:400px;height: 300px}
+		.babo-babo
+		{
+			font-size: 13px;
+		}
+					}
+		@media(max-width: 1700px) and (min-width: 1200px)
+		{
+			.navbar-brand
+			{
+				margin-right: 40pc;
+			}
+
+		}
+
+	</style>
+</head>
+<body ng-app="myApp">
+	<div  ng-controller="set">
+	<header>
+		<nav class="navbar navbar-dark navbar-custom navbar-expand-sm sticky-top">
+			<div class="container-fluid">
+				<a href="index.html" class="navbar-brand" style="font-size: 60px;font-family: freestyle script">Cars99</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#me">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="me">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="cars99.html" class="nav-link">Main</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link">About us</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Contact&nbsp|</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Sign up</a>
+							</li>
+							<div class="dropdown">
+								  <button style="background-color: transparent;color: white;margin-top: 5px;border:1px solid white;border-radius: 20px" type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+								    Cart<span class="fa fa-cart-plus"></span>
+								  </button>
+								  <div class="dropdown-menu"   ng-repeat="det in details">
+								    <a class="dropdown-item" href="#">Range Rover</a>
+								    <a class="dropdown-item" href="#">Rolls Royce</a>
+								    <a class="dropdown-item" href="#">Bentley Intercontinental GT</a>
+								  </div>
+								</div>
+						</ul>
+					</div>
+			</div>
+		</nav>
+		<div class="container-fluid">
+		<div class="inpo text-center"><b>Best New Cars</b></div> <br> <div class="inpo-two">Get your favourites for 2018</div>
+	</div>
+	</header>
+
+<div class="container mt-3">
+<div class="text-center"  style="font-size: 35px;font-family: segoe UI black">
+	CONTACT US
+</div>
+<div class="text-center mt-4"  style="font-size: 30px;font-family: segoe UI black">
+	How To Get In Touch With Us
+</div>
+
+<div class="row mt-5">
+	<div class="col-md-6">
+		<div class="text-center" style="font-size: 30px;font-family: segoe UI black">Cars99</div>
+		<div style="font-size: 16px;padding:10px">
+			Whether you're an individual looking to purchase a car, an organisation interested in talking about purchasing a fleet of vehicles or would just like to find out more about what we do and how we could work together, get in touch using the details below.
+		</div>
+		<div><b>Address</b></div> 
+		<div style="padding: 10px;font-size: 16px">
+			Plot 12,Lateef Jakande Road,Ilishan-Remo,Ogun State,Nigeria.
+		</div>
+		<div><b>Phone Number</b></div>
+		<div style="padding: 10px;font-size: 16px">
+			+234 806 897 2345
+		</div>
+		<div><b>Company Name</b></div>
+		<div  style="font-size: 60px;font-family: freestyle script">Cars99</div>
+	</div>
+	<div class="col-md-6">
+	 <img src="images/cars/screen.png" class="img-fluid">
+	</div>
+</div>
+</div>
+
+<div class="main mt-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div style="color: white;padding-top: 50px;font-size: 30px">
+					Contact Us
+				</div>
+				<div style="padding-bottom: 30px">
+					<input type="text" name="" class="form-control" placeholder="Your First Name">
+				</div>
+				<div style="padding-bottom: 30px">
+					<input type="text" name="" class="form-control" placeholder="Your Last Name">
+				</div>
+				<div style="padding-bottom: 30px">
+					<input type="email" name="" class="form-control" placeholder="Enter Your email">
+				</div>
+				<div style="padding-bottom: 50px">
+					<textarea class="form-control" rows="5" style="resize: none;" placeholder="Leave a commment"></textarea>
+				</div>
+				<div>
+					<button class="btn btn-lg" style="background-color:#FFA733;font-size: 16px; ">Contact</button>
+				</div>
+			</div>
+			<div class="col-md-4">
+				
+			</div>
+			<div class="col-md-4">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="text-center"  style="font-size: 35px;font-family: segoe UI black">Customer Service and Support</div>
+	<ul style="font-size: 16px">
+<li>Help site. Check out our help site for answers to your questions and to learn how to get the most out of Cars99 and your choices.</li>
+<li>Community. Get fast support from expert Cars99 users. If there isn't already an answer there to your question, post it and someone will quickly answer. You can also suggest and vote on new ideas for Cars99 or simply discuss with other users.</li>
+<li>Contact us. Contact our Customer Support if you don't find a solution on our support site or Community.</li>
+<li>@Cars99Cares. Feeling sociable? Simply tweet the team and they'll do all they can to help.</li>
+</ul>
+</div>
+
+		<footer>
+			<div class="text-muted container-fluid" style="background-color: #343a40;">
+				<div class="row" style="padding: 50px">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3" >
+						<div style="padding: 5px">
+						<span class="input-group">
+							<input type="text" name="">
+							<span class="input-group-addon">
+								<i class="fa fa-mobile"></i>
+							</span>
+						</span>
+						</div>
+					
+						<div style="padding: 5px">
+						<span class="input-group">
+							<input type="text" name="">
+							<span class="input-group-addon">
+								<i class="fa fa-mobile"></i>
+							</span>
+						</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+						<div  style="font-size: 16px;padding-bottom: 5px"><b>About</b></div>
+						<div  style="font-size: 13px;">Cars99</div>
+						<div style="font-size: 13px;">Terms of Use</div>
+						<div style="font-size: 13px;">Privacy Policy</div>
+						<div style="font-size: 13px;">Business License</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+						<div  style="font-size: 16px;padding-bottom: 5px"><b>Other Services</b></div>
+						<div  style="font-size: 13px;">Timing</div>
+						<div style="font-size: 13px;">Operation</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+						<div  style="font-size: 16px;padding-bottom: 5px"><b>Contact Us</b></div>
+						<div  style="font-size: 13px;">Website Feedback</div>
+						<div style="font-size: 13px;">Customer Support</div>
+					</div>
+	
+				</div> 
+			</div>
+		</footer>	
+	
+</body>
+</html>

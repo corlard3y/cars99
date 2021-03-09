@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/font/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+	<style type="text/css">
+		header
+		{
+			background: url(images/cars/emil-vilsek-377013-unsplash.jpg);
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+			background-position: center center;
+		}	
+		
+		.navbar-custom
+		{
+			background-color: transparent;
+		}
+		.navbar-custom .navbar-nav .nav-link 
+		{
+    		color: white;
+    		font-family: sakkal majalla;
+    		font-size: 25px
+    	}
+    	
+    	.inpo
+    	{
+    		position: absolute;
+    		top: 7pc;
+    		left: 2%;
+    		font-size: 60px;
+    		color: white;
+    	}
+    	.inpo-two
+    	{
+    		position: absolute;
+    		top: 12pc;
+    		left:2%;
+    		font-size: 20px;
+    		color: white;
+    	}
+    	.inpoo
+    	{
+    	 margin-top: 40px;
+    	 width: 400px;
+    	 height: 50px;
+    	 margin-left: 50px;
+    	 border-radius: 5px;
+    	 border-style: none;
+    	 padding: 10px
+       	}
+       	.sego
+       
+       	.fa-2x
+       	{color:white;margin-bottom: 5px;background-color: #FFA733}
+       	footer footer
+       	{
+       		font-size: 12px;margin-left: 350px;padding: 10px;
+       	}
+		@media(max-width: 350px) and (min-width: 1px)
+       	{
+       		.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:200px;height: 150px}
+		.content{display: none;}
+       	}
+		@media(max-width: 399px) and (min-width: 350px)
+		{
+			.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		}
+		@media(max-width: 499px) and (min-width: 400px)
+		{
+			.inpo{
+				position: absolute;
+				top: 360px;
+				font-size: 30px;
+			}
+			.inpo-two{
+				position: absolute;
+				top: 400px;
+			}
+			.babo
+			{
+				display: none;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		.content{width: 300px}
+		}
+		@media(max-width: 849px) and (min-width: 500px)
+		{	.navbar-brand
+			{
+				margin-right: 10pc;
+			}
+			.inpo{font-size: 50px;
+				position:absolute;
+				top:10pc;
+			}
+			.inpo-two{
+				position: absolute;
+				top:14pc;
+			}
+		.work .kaka img{width:280px;height: 200px}
+		.babo-babo
+		{
+			font-size: 9px;
+		}
+		.content p
+		{
+			font-size: 20px;
+		}
+		.sego
+		{
+			font-size: 20px;
+		}
+		.sego-sego
+		{
+			font-size: 30px;
+		}
+					}
+		@media(max-width: 1119px) and (min-width: 850px)
+		{	.navbar-brand
+			{
+				margin-right: 25pc;
+			}
+		.work .kaka img{width:400px;height: 300px}
+		.babo-babo
+		{
+			font-size: 13px;
+		}
+					}
+		@media(max-width: 1700px) and (min-width: 1200px)
+		{
+			.navbar-brand
+			{
+				margin-right: 40pc;
+			}
+
+		}
+
+	</style>
+	
+</head>
+<body ng-app="myApp">
+	<div  ng-controller="set">
+	<header>
+		<nav class="navbar navbar-dark navbar-custom navbar-expand-sm sticky-top">
+			<div class="container-fluid">
+				<a href="index.html" class="navbar-brand" style="font-size: 60px;font-family: freestyle script">Cars99</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#me">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="me">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="cars99.html" class="nav-link">Main</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">About us</a>
+							</li>
+							<li class="nav-item">
+								<a href="contact.html" class="nav-link">Contact&nbsp|</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Sign up</a>
+							</li>
+							<div class="dropdown">
+								  <button style="background-color: transparent;color: white;margin-top: 5px;border:1px solid white;border-radius: 20px" type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+								    Cart<span class="fa fa-cart-plus"></span>
+								  </button>
+								  <div class="dropdown-menu"   ng-repeat="det in details">
+								    <a class="dropdown-item" href="#">Range Rover</a>
+								    <a class="dropdown-item" href="#">Rolls Royce</a>
+								    <a class="dropdown-item" href="#">Bentley Intercontinental GT</a>
+								  </div>
+								</div>
+						</ul>
+					</div>
+			</div>
+		</nav>
+		<div class="container-fluid">
+		<div class="inpo text-center"><b>Best New Cars</b></div> <br> <div class="inpo-two">Get your favourites for 2018</div>
+	</div>
+	</header>
+	<div class="container mt-3">
+	<div>
+		<div class="text-center" style="font-size: 35px;font-family: segoe UI black">
+			ABOUT US
+		</div>
+		<div style="padding: 10px;font-size: 16px;">
+			Cars99 is a page where you can search for your Dream Automobile and place an order of what ever choice of cars you want to Purchase.
+
+			Cars99 is a page where you can get information about recent and old Automobiles.You can get details on this page such as Engine Type,Speed and Acceleration,Price.....Among Others
+		</div>
+		<div>
+			<div class="text-center" style="font-size: 35px;font-family: segoe UI black">
+				Our Services
+			</div>
+			<div style="padding:10px;font-size: 16px;">
+				We are a large car sale service with the goal of helping hundreds of customers to buy their
+				dream cars.At Cars99 our passion is to build the infrastructure for commerce that allows buyers of our products to transact quickly, cheaply and with unhindered access to independent relevant information they need to know about Automobiles. We deliver this products to the address delivered by our buyer without stress and difficulty WorldWide.
+			</div>
+		</div>
+	</div>
+</div>
+	<footer>
+		<div class="text-muted container-fluid" style="background-color: #343a40;">
+			<div class="row" style="padding: 50px">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3" style="">
+					<div style="padding: 5px">
+					<span class="input-group">
+						<input type="text" name="">
+						<span class="input-group-addon">
+							<i class="fa fa-mobile"></i>
+						</span>
+					</span>
+					</div>
+				
+					<div style="padding: 5px">
+					<span class="input-group">
+						<input type="text" name="">
+						<span class="input-group-addon">
+							<i class="fa fa-mobile"></i>
+						</span>
+					</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+					<div  style="font-size: 16px;padding-bottom: 5px"><b>About</b></div>
+					<div  style="font-size: 13px;">Cars99</div>
+					<div style="font-size: 13px;">Terms of Use</div>
+					<div style="font-size: 13px;">Privacy Policy</div>
+					<div style="font-size: 13px;">Business License</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+					<div  style="font-size: 16px;padding-bottom: 5px"><b>Other Services</b></div>
+					<div  style="font-size: 13px;">Timing</div>
+					<div style="font-size: 13px;">Operation</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-3">
+					<div  style="font-size: 16px;padding-bottom: 5px"><b>Contact Us</b></div>
+					<div  style="font-size: 13px;">Website Feedback</div>
+					<div style="font-size: 13px;">Customer Support</div>
+				</div>
+
+			</div> 
+		</div>
+	</footer>
+	
+</body>
+</html>

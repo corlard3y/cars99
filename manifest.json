@@ -1,0 +1,21 @@
+{
+  "short_name": "Cars99",
+  "name": "A Car Buying and Delivery Service",
+  "icons": [
+    {
+      "src": "images/carcar.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/car.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "white",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
